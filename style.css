@@ -1,0 +1,66 @@
+html {
+	background-color: #E9E9E9;
+}
+
+table {
+	margin: 2vmin auto;
+	border-spacing: 0;
+	background-color: lightgray;
+	max-width: 50rem;
+	max-height: 50rem;
+}
+td {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+button {
+	font-family: 'Homenaje', sans-serif;
+	font-size: 7.5vmin;
+	font-weight: normal;
+	text-align: center;
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: 19vmin;
+	height: 19vmin;
+	max-width: 15rem;
+	max-height: 15rem;
+	background-color: lightgray;
+	transition: background-color 0.25s;
+}
+
+button:hover {
+	background-color: #EBD8B5;
+	transition: background-color 0.1s;
+}
+
+button:active {
+	font-weight: bold;
+}
+
+button:focus {
+	outline: 0;
+}
+
+#calculateButton {
+	width: 38vmin;
+	max-width: 30rem;
+	background-color: #CCCCCC;
+	transition: background-color 0.25s;
+}
+
+#calculateButton:hover {
+	background-color: #F8CA75;
+	transition: background-color 0.1s;
+}
+
+#display {
+	font-family: 'Homenaje', sans-serif;
+	font-size: 9vmin;
+	text-align: right;
+	border-bottom: 1vmin solid orange;
+	background-color: white;
+	padding: 1vmin 2vmin 0;
+}
