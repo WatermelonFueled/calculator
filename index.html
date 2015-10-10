@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="David Park">
+	<meta name="description" content="a simple calculator">
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Homenaje">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<table>
+		<tr>
+			<td id="display" colspan="5">0</td>
+		</tr>
+		<tr>
+			<td><button onclick="inputDigit(1)">1</button></td>
+			<td><button onclick="inputDigit(2)">2</button></td>
+			<td><button onclick="inputDigit(3)">3</button></td>
+			<td><button onclick="setOperator(3)">&#215</button></td>
+			<td><button onclick="setOperator(4)">&#247</button></td>
+		</tr>
+			<td><button onclick="inputDigit(4)">4</button></td>
+			<td><button onclick="inputDigit(5)">5</button></td>
+			<td><button onclick="inputDigit(6)">6</button></td>
+			<td><button onclick="setOperator(1)">+</button></td>
+			<td><button onclick="setOperator(2)">&#8722</button></td>
+		<tr>
+			<td><button onclick="inputDigit(7)">7</button></td>
+			<td><button onclick="inputDigit(8)">8</button></td>
+			<td><button onclick="inputDigit(9)">9</button></td>
+			<td><button onclick="delKey()">DEL</button></td>
+			<td><button onclick="clearKey()">C</button></td>
+		</tr>
+		<tr>
+			<td><button onclick="inputDigit('.')">&#183</button></td>
+			<td><button onclick="inputDigit(0)">0</button></td>
+			<td><button onclick="ansKey()">ANS</button></td>
+			<td colspan="2"><button onclick="calculate()" id="calculateButton">=</button></td>
+		</tr>
+	</table>
+	<script type="text/javascript" src="calculator.js"></script>
+</body>
+
+</html>
