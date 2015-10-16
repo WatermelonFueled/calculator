@@ -93,6 +93,7 @@ function clearKey(){
 	clearOperandArray();
 	operand1 = 0;
 	operand2 = 0;
+	operator = 0;
 	display(operand1);
 }
 
