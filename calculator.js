@@ -6,7 +6,6 @@ var operator=0;
 var onFirst=true;
 var decimalPoint=false;
 var disp = document.getElementById("display");
-var calculateButton = document.getElementById("calculateButton");
 
 function inputDigit(digit){
 	if (digit === "."){
